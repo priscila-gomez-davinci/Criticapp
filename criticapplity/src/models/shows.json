@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "title": "Breaking Bad",
+      "description": "Un profesor de química se convierte en un capo de la droga."
+    },
+    {
+      "id": 2,
+      "title": "Game of Thrones",
+      "description": "Un grupo de nobles lucha por el control de los Siete Reinos."
+    }
+  ]

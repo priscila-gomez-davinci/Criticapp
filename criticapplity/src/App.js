@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ShowsList from './components/ShowsList'; // Ajusta la ruta si es necesaria
+import CategoryList from './components/CategoryList'; // Ajusta la ruta si es necesaria
+import SearchBar from './components/SearchBar'; // Ajusta la ruta si es necesaria
+import Header from './components/Header'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Header title="Mi Aplicación" />
+        <SearchBar/>
+      <h1>Mis series favoritas</h1>
+      <div className="container">
+      <CategoryList />
+      <ShowsList />
+    </div>
     </div>
   );
 }
